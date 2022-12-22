@@ -35,9 +35,8 @@ cd .. && catkin build
 cd catkin_ws
 source devel/setup.bash
 roslaunch dvs_renderer davis_color.launch (FOR DAVIS346)
-
-roslaunch dvs_renderer dvxplorer_mono.launch ``` (FOR DVXplorer)
-
 rosbag record /dvs/events
-
 ```
+
+### Step 3: Convert the bag file to h5 file
+Create NVSCircles conda environment:
