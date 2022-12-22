@@ -1,6 +1,19 @@
 # NVSCircles_calib
 Event-driven calibration of neuromorphic vision sensors
 
+You can find a pdf of the paper [here]().
+If you use this code in an academic context please cite this publication:
+
+```bibtex
+@Article{nvscircles,
+  author        = {Mohammed Salah and Abdulla Ayyad and Muhammad Humais and Davide Scaramuzza},
+  title         = {Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors},
+  journal       = {Arxiv},
+  url           = {},
+  year          = 2019
+}
+```
+
 ## Supported platforms
 
 Tested on the following platforms:
