@@ -40,3 +40,26 @@ rosbag record /dvs/events
 
 ### Step 3: Convert the bag file to h5 file
 Create NVSCircles conda environment:
+```
+git clone https://github.com/mohammedsalah98/NVSCircles_calib.git
+cd NVSCircles_calib
+conda env create -f environment.yml
+conda activate NVSCircles
+```
+Convert the recorded bag to h5:
+```
+./bag_to_h5.py
+```
+
+The code is interactive and asks for the h5 data directory on the go. The h5 data will be saved in the dataset directory.
+
+### Step 4: Run the calibration script
+After converting the bag file to h5, run the calibration script:
+```
+./NVSCircles_calib.py
+```
+
+This code is also interactive and asks for the required data after running, including the resolution of the sensor and the pattern properties.
+
+## Disclaimer
+We will soon release the code also as a ros node to do calibration of neuromorphic vision sensors online.
