@@ -40,7 +40,8 @@ source devel/setup.bash
 ```
 
 ```
-roslaunch dvs_renderer davis_color.launch ``` (FOR DAVIS346)
+roslaunch dvs_renderer davis_color.launch 
+``` (FOR DAVIS346)
 
 
 ```
