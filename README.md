@@ -15,4 +15,5 @@ Tested on the following hardware:
 
 ## Prerequisites
 The following package needs to be in your catkin workspace to record event data sequences:
+
 [rpg_dvs_ros](https://github.com/uzh-rpg/rpg_dvs_ros)
