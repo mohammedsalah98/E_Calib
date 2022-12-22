@@ -17,3 +17,15 @@ Tested on the following hardware:
 The following package needs to be in your catkin workspace to record event data sequences:
 
 [rpg_dvs_ros](https://github.com/uzh-rpg/rpg_dvs_ros)
+
+An asymmetric circles grid or you can use our dataset on: [NVS-ACircles](https://www.dropbox.com/sh/jxxsscijfeby3px/AADw3GzuV08WAo3q2WeBBonoa?dl=0)
+
+## Running the software
+Create your catkin workspace:
+```
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+git clone https://github.com/uzh-rpg/rpg_dvs_ros.git
+git clone https://github.com/catkin/catkin_simple.git
+cd .. && catkin build
+```
