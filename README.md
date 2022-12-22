@@ -75,7 +75,7 @@ After converting the bag file to h5, run the calibration script:
 ./NVSCircles_calib.py
 ```
 
-This code is also interactive and asks for the required data after running, including the resolution of the sensor and the pattern properties.
+This code is also interactive and asks for the required data after running, including the resolution of the sensor and the calibration pattern properties.
 
 If you are looking for improved calibration accuracy, we rather recommend running the MATLAB script 'calib_img_pts_lsqnonlin.m'. The code follows the same structure of the aforementioned python script.
 
