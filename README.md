@@ -1,7 +1,7 @@
 # NVSCircles_calib
 Event-driven calibration of neuromorphic vision sensors
 
-[![High Speed and High Dynamic Range Video with an Event Camera](http://rpg.ifi.uzh.ch/E2VID/video_thumbnail.png)](https://youtu.be/eomALySSGVU)
+[![Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors](http://rpg.ifi.uzh.ch/E2VID/video_thumbnail.png)](https://www.dropbox.com/s/m0jgabgkos940lj/NVSCircles_video.mp4?dl=0)
 
 #
 You can find the PDF of the paper [here]().
