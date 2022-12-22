@@ -21,7 +21,7 @@ The following package needs to be in your catkin workspace to record event data 
 An asymmetric circles grid or you can use our dataset on: [NVS-ACircles](https://www.dropbox.com/sh/jxxsscijfeby3px/AADw3GzuV08WAo3q2WeBBonoa?dl=0)
 
 ## Running the software
-### Step 1: Create your catkin workspace:
+### Step 1: Create your catkin workspace
 ```
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
@@ -30,7 +30,7 @@ git clone https://github.com/catkin/catkin_simple.git
 cd .. && catkin build
 ```
 
-### Step 2: Record your event data sequence:
+### Step 2: Record your event data sequence
 ```
 cd catkin_ws
 source devel/setup.bash
