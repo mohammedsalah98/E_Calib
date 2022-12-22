@@ -1,7 +1,7 @@
 # NVSCircles_calib
 Event-driven calibration of neuromorphic vision sensors
 
-You can find a pdf of the paper [here]().
+You can find the PDF of the paper [here]().
 If you use this code in an academic context please cite this publication:
 
 ```bibtex
@@ -10,7 +10,7 @@ If you use this code in an academic context please cite this publication:
   title         = {Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors},
   journal       = {Arxiv},
   url           = {},
-  year          = 2019
+  year          = 2022
 }
 ```
 
