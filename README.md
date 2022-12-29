@@ -9,7 +9,7 @@ If you use this code in an academic context please cite this publication:
 
 ```bibtex
 @Article{nvscircles,
-  author        = {Mohammed Salah and Abdulla Ayyad and Muhammad Humais and Abdulqader Abusafieh and Yahya Zweiri},
+  author        = {Mohammed Salah and Abdulla Ayyad and Muhammad Humais and Abdelqader Abusafieh and Yahya Zweiri},
   title         = {Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors},
   journal       = {Arxiv},
   url           = {},
