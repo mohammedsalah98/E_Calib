@@ -1,7 +1,7 @@
 # NVSCircles_calib
 ## Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors
 
-[![Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)](https://www.dropbox.com/s/vzr5qdcxnf3cf15/video_voiceover_cc.mp4?dl=0)
+[![Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)](https://www.dropbox.com/s/bg5jp727swc4x9l/video_voiceover_cc.mp4?dl=0)
 
 #
 You can find the PDF of the paper [here]().
