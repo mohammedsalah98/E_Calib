@@ -81,8 +81,3 @@ If you are looking for improved calibration accuracy, we rather recommend runnin
 
 ## Disclaimer
 We will soon release the code also as a ros node to do calibration of neuromorphic vision sensors online.
-
-* Asymmetric Circles Properties
-              * 3x7:
-                  * Diagonal Spacing = 
-          * Bullet list item 2
