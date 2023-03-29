@@ -82,8 +82,11 @@ If you are looking for improved calibration accuracy, we rather recommend runnin
 ## Disclaimer
 We will soon release the code also as a ros node to do calibration of neuromorphic vision sensors online.
 
-- Item 1
-- Item 2
-- Item 3
-  - Sub Item 1
-  - Sub Item 2
+```
+|--
+
+```
+|--
+```
+
+```
