@@ -1,7 +1,7 @@
 # NVSCircles_calib
 ## Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors
 
-[![Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)](https://www.dropbox.com/s/bg5jp727swc4x9l/video_voiceover_cc.mp4?dl=0)
+[![Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)](https://www.dropbox.com/s/5zjuabvfr4kk9xr/nvs_calibration_sensors.mp4?dl=0)
 
 #
 You can find the PDF of the paper [here]().
@@ -34,7 +34,7 @@ The following package needs to be in your catkin workspace to record event data 
 
 [rpg_dvs_ros](https://github.com/uzh-rpg/rpg_dvs_ros)
 
-An asymmetric circles grid or you can use our dataset on: [NVS-ACircles](https://www.dropbox.com/sh/jxxsscijfeby3px/AADw3GzuV08WAo3q2WeBBonoa?dl=0)
+An asymmetric circles grid or you can use our dataset on: [NVS-ACircles](https://www.dropbox.com/scl/fo/n7xwn82tpohku1vhn3pcj/h?dl=0&rlkey=vm1c94o4ll5a8eq5dbbknse1a)
 
 ## Running the software
 ### Step 1: Create your catkin workspace
