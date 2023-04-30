@@ -17,6 +17,9 @@ If you use this code in an academic context please cite this publication:
 }
 ```
 
+## Code Structure and NVS_ACircles Dataset Outline:
+![Alt text](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/dataset.png)
+
 ## Supported platforms
 
 Tested on the following platforms:
