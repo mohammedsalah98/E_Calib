@@ -1,7 +1,7 @@
 # NVSCircles_calib
-## Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors
+## NVS-Calib: NVS-Calib: A Fast, Robust and Accurate Calibration Tool for Neuromorphic Vision Sensors 
 
-[![Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/thumbnail.png)]([https://www.dropbox.com/s/5zjuabvfr4kk9xr/nvs_calibration_sensors.mp4?dl=0](https://youtu.be/sOS2qNJVzxg))
+[![NVS-Calib:](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)]([https://youtu.be/sOS2qNJVzxg])
 
 #
 You can find the PDF of the paper [here]().
@@ -10,7 +10,7 @@ If you use this code in an academic context please cite this publication:
 ```bibtex
 @Article{nvscircles,
   author        = {Mohammed Salah, Abdulla Ayyad, Muhammad Humais, Abdelqader Abusafieh, Lakmal Seneviratne and Yahya Zweiri},
-  title         = {Novel Event-Driven Calibration of Bio-Inspired Neuromorphic Vision Sensors},
+  title         = {NVS-Calib: A Fast, Robust and Accurate Calibration Tool for Neuromorphic Vision Sensors},
   journal       = {Arxiv},
   url           = {},
   year          = 2022
