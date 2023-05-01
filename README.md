@@ -1,7 +1,7 @@
 # NVS-Calib
 ## A Fast, Robust and Accurate Calibration Tool for Neuromorphic Vision Sensors 
 
-[![NVS-Calib:](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)]([https://youtu.be/sOS2qNJVzxg])
+[![NVS-Calib:](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)](https://youtu.be/sOS2qNJVzxg)
 
 #
 You can find the PDF of the paper [here]().
