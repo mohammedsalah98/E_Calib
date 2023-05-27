@@ -13,7 +13,7 @@ If you use this code in an academic context please cite this publication:
   title         = {E-Calib: A Fast, Robust and Accurate Calibration Tool for Event Cameras},
   journal       = {Arxiv},
   url           = {},
-  year          = 2022
+  year          = 2023
 }
 ```
 
