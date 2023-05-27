@@ -1,5 +1,5 @@
 # E-Calib
-## A Fast, Robust and Accurate Calibration Tool for Neuromorphic Vision Sensors 
+## A Fast, Robust and Accurate Calibration Tool for Event Cameras 
 
 [![NVS-Calib:](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/video_thumbnail.png)](https://youtu.be/sOS2qNJVzxg)
 
@@ -10,14 +10,14 @@ If you use this code in an academic context please cite this publication:
 ```bibtex
 @Article{nvscircles,
   author        = {Mohammed Salah, Abdulla Ayyad, Muhammad Humais, Abdelqader Abusafieh, Lakmal Seneviratne and Yahya Zweiri},
-  title         = {NVS-Calib: A Fast, Robust and Accurate Calibration Tool for Neuromorphic Vision Sensors},
+  title         = {E-Calib: A Fast, Robust and Accurate Calibration Tool for Event Cameras},
   journal       = {Arxiv},
   url           = {},
   year          = 2022
 }
 ```
 
-## Code Structure and NVS_ACircles Dataset Outline:
+## Code Structure and ECam_ACircles Dataset Outline:
 ![Alt text](https://github.com/mohammedsalah98/NVSCircles_calib/blob/master/dataset/dataset.png)
 
 ## Supported platforms
@@ -37,7 +37,7 @@ The following package needs to be in your catkin workspace to record event data 
 
 [rpg_dvs_ros](https://github.com/uzh-rpg/rpg_dvs_ros)
 
-An asymmetric circles grid or you can use our dataset on: [NVS-ACircles](https://www.dropbox.com/scl/fo/n7xwn82tpohku1vhn3pcj/h?dl=0&rlkey=vm1c94o4ll5a8eq5dbbknse1a)
+An asymmetric circles grid or you can use our dataset on: [ECam-ACircles](https://www.dropbox.com/scl/fo/n7xwn82tpohku1vhn3pcj/h?dl=0&rlkey=vm1c94o4ll5a8eq5dbbknse1a)
 
 ## Running the software
 ### Step 1: Create your catkin workspace
@@ -58,10 +58,10 @@ rosbag record /dvs/events
 ```
 
 ### Step 3: Convert the bag file to h5 file
-Create NVSCircles conda environment:
+Create ECalib conda environment:
 ```
 git clone https://github.com/mohammedsalah98/NVSCircles_calib.git
-cd NVSCircles_calib
+cd E_Calib
 conda env create -f environment.yml
 conda activate NVSCircles
 ```
@@ -75,7 +75,7 @@ The code is interactive and asks for the h5 data directory on the go. The h5 dat
 ### Step 4: Run the calibration script
 After converting the bag file to h5, run the calibration script:
 ```
-./NVSCircles_calib.py
+./E_Calib.py
 ```
 
 This code is also interactive and asks for the required data after running, including the resolution of the sensor and the calibration pattern properties.
