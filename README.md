@@ -1,7 +1,7 @@
 # E-Calib
 ## A Fast, Robust and Accurate Calibration Tool for Event Cameras 
 
-[![E-Calib:](https://github.com/mohammedsalah98/E_Calib/blob/master/thumbnail.png)](https://youtu.be/sOS2qNJVzxg)
+[![E-Calib:](https://github.com/mohammedsalah98/E_Calib/blob/master/video_thumbnail.png)](https://youtu.be/sOS2qNJVzxg)
 
 #
 You can find the PDF of the paper [here]().
