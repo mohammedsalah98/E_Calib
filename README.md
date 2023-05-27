@@ -9,7 +9,7 @@ If you use this code in an academic context please cite this publication:
 
 ```bibtex
 @Article{nvscircles,
-  author        = {Mohammed Salah, Abdulla Ayyad, Muhammad Humais, Abdelqader Abusafieh, Lakmal Seneviratne and Yahya Zweiri},
+  author        = {Mohammed Salah, Abdulla Ayyad, Muhammad Humais, Daniel Gehrig, Abdelqader Abusafieh, Lakmal Seneviratne, Davide Scaramuzza, and Yahya Zweiri},
   title         = {E-Calib: A Fast, Robust and Accurate Calibration Tool for Event Cameras},
   journal       = {Arxiv},
   url           = {},
