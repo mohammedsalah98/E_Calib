@@ -1,4 +1,4 @@
-name: NVSCircles
+name: ECalib
 channels:
   - conda-forge
   - pytorch
