@@ -25,6 +25,7 @@ events[:,2] = events[:,2] - events[0,2]
 time_array = np.linspace(0.1, events[-1,2]-0.1, num=int((events[-1,2])/t_sample))
 imgPts = []
 worldPts = []
+count = 1
 
 # Create calibration grid world points
 def create_worldPts():
@@ -108,7 +109,7 @@ def find_grid(solution, count):
     params = cv2.SimpleBlobDetector_Params()
     detector = cv2.SimpleBlobDetector_create(params)
     image = 255 * np.ones((H, W), np.uint8)
-    radius = 8
+    radius = 5
     thickness = -1
     color = (0, 0)
     for i in range(len(solution)):
@@ -120,7 +121,8 @@ def find_grid(solution, count):
     ret, corners = cv2.findCirclesGrid(image, (pattern_height,pattern_width), None, flags=(cv2.CALIB_CB_ASYMMETRIC_GRID + cv2.CALIB_CB_CLUSTERING), blobDetector=detector)
     if ret:
         image = cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
-        image = cv2.drawChessboardCorners(image, (pattern_height,pattern_width), corners, ret)
+        for j in range(len(corners)):
+            image = cv2.circle(image, (int(corners[j][0][0]), int(corners[j][0][1])), radius, (0,0,255), thickness)
         cv2.imshow('Reconstructed Circles', image)
         cv2.waitKey(1)
         return corners
