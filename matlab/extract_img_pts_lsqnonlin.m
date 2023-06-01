@@ -46,10 +46,9 @@ if ~isempty(events_normalized)
     solutions(residuals==0,:) = [];
     % Find refined image points
     img_calib = 255 .* ones(H,W);
-    circles_detected = [solutions(:,2), solutions(:,3), 7.*ones(height(solutions),1)];
+    circles_detected = [solutions(:,2), solutions(:,3), 5.*ones(height(solutions),1)];
     img_calib = insertShape(img_calib,'FilledCircle',circles_detected, 'Color', 'black', 'Opacity', 1.0, 'SmoothEdges', false);
     imagePoints = detectCircleGridPoints(img_calib,patternDims,PatternType="asymmetric");
-    img_calib = 255 .* ones(H,W);
     if ~isempty(imagePoints)
         img_pts_refined = zeros(height(imagePoints), 2);
         for i=1:height(imagePoints)
@@ -58,8 +57,7 @@ if ~isempty(events_normalized)
             [refined_pt, min_norm_idx] = min(dist_to_fitted);
             img_pts_refined(i,:) = solutions(min_norm_idx,2:3);
         end
-        img_calib = insertShape(img_calib,'FilledCircle',[img_pts_refined, 7.*ones(height(img_pts_refined),1)], 'Color', 'black', 'Opacity', 1.0, 'SmoothEdges', false);
-        img_calib = insertMarker(img_calib,imagePoints,"x",Color="green",Size=5);
+        img_calib = insertShape(img_calib,'FilledCircle',[imagePoints, 5.*ones(height(imagePoints),1)], 'Color', 'red', 'Opacity', 1.0, 'SmoothEdges', false);
         imshow(img_calib)
     else
         img_pts_refined = [];
