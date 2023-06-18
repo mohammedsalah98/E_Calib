@@ -8,12 +8,10 @@ You can find the PDF of the paper [here]().
 If you use this code in an academic context please cite this publication:
 
 ```bibtex
-@Article{E-Calib,
-  author        = {Mohammed Salah, Abdulla Ayyad, Muhammad Humais, Daniel Gehrig, Abdelqader Abusafieh, Lakmal Seneviratne, Davide Scaramuzza, and Yahya Zweiri},
-  title         = {E-Calib: A Fast, Robust and Accurate Calibration Tool for Event Cameras},
-  journal       = {Arxiv},
-  url           = {},
-  year          = 2023
+@misc{E-Calib,
+      title={E-Calib: A Fast, Robust and Accurate Calibration Toolbox for Event Cameras}, 
+      author={Mohammed Salah and Abdulla Ayyad and Muhammad Humais and Daniel Gehrig and Abdelqader Abusafieh and Lakmal Seneviratne and Davide Scaramuzza and Yahya Zweiri},
+      year={2023},
 }
 ```
 
