@@ -16,7 +16,7 @@ If you use this code in an academic context please cite this publication:
 ```
 
 ## Code Structure and ECam_ACircles Dataset Outline:
-![Alt text](https://github.com/mohammedsalah98/E_Calib/blob/master/dataset.png)
+![Alt text](https://github.com/mohammedsalah98/E_Calib/blob/master/ECam_ACircles.png)
 
 ## Supported platforms
 
@@ -81,4 +81,4 @@ This code is also interactive and asks for the required data after running, incl
 If you are looking for improved calibration accuracy, we rather recommend running the MATLAB script 'matlab/calib_img_pts_lsqnonlin.m'. The code follows the same structure of the aforementioned python script.
 
 ## Disclaimer
-We will soon release the code also as a ros node to do calibration of neuromorphic vision sensors online.
+We will soon release the code also as a ros node to do calibration of event cameras online.
