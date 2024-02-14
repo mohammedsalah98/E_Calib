@@ -35,7 +35,7 @@ The following package needs to be in your catkin workspace to record event data 
 
 [rpg_dvs_ros](https://github.com/uzh-rpg/rpg_dvs_ros)
 
-An asymmetric circles grid or you can use our dataset on: [ECam-ACircles](https://www.dropbox.com/scl/fo/n7xwn82tpohku1vhn3pcj/h?dl=0&rlkey=vm1c94o4ll5a8eq5dbbknse1a)
+An asymmetric circles grid or you can use our dataset on: [ECam-ACircles](https://drive.google.com/drive/folders/1m_l6S-mTReuIfsrB6UnwOuPu111-0Mfz?usp=sharing)
 
 ## Running the software
 ### Step 1: Create your catkin workspace
