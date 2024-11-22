@@ -8,11 +8,14 @@ You can find the PDF of the paper [here]().
 If you use this code in an academic context please cite this publication:
 
 ```bibtex
-@misc{E-Calib,
-      title={E-Calib: A Fast, Robust and Accurate Calibration Toolbox for Event Cameras}, 
-      author={Mohammed Salah and Abdulla Ayyad and Muhammad Humais and Daniel Gehrig and Abdelqader Abusafieh and Lakmal Seneviratne and Davide Scaramuzza and Yahya Zweiri},
-      year={2023},
-}
+@ARTICLE{E-Calib,
+  author={Salah, Mohammed and Ayyad, Abdulla and Humais, Muhammad and Gehrig, Daniel and Abusafieh, Abdelqader and Seneviratne, Lakmal and Scaramuzza, Davide and Zweiri, Yahya},
+  journal={IEEE Transactions on Image Processing}, 
+  title={E-Calib: A Fast, Robust, and Accurate Calibration Toolbox for Event Cameras}, 
+  year={2024},
+  volume={33},
+  pages={3977-3990},
+  doi={10.1109/TIP.2024.3410673}}
 ```
 
 ## Code Structure and ECam_ACircles Dataset Outline:
