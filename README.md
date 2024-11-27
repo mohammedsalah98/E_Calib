@@ -4,7 +4,7 @@
 [![E-Calib:](https://github.com/mohammedsalah98/E_Calib/blob/master/video_thumbnail.png)](https://youtu.be/4giQn6rt-48)
 
 #
-You can find the PDF of the paper [here]().
+You can find the PDF of the paper [here](https://arxiv.org/abs/2306.09078).
 If you use this code in an academic context please cite this publication:
 
 ```bibtex
